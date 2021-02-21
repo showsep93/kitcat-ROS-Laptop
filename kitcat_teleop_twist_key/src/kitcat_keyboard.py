@@ -216,5 +216,4 @@ if __name__=="__main__":
 
     finally:
         pub_thread.stop()
-
         termios.tcsetattr(sys.stdin, termios.TCSADRAIN, settings)
